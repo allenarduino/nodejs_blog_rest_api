@@ -50,6 +50,8 @@ Host:  http://localhost:5000
 		alt="Capture 1"
 		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot6.png">
 
+### User Login/Authentication:
+
 ```
 POST /user_profile/<user_id>
 headers:{
