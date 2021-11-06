@@ -9,13 +9,13 @@
 		alt="Capture 1"
 		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot1.png">
 
-## End points
+## End points:
 
 ### User registration:
 
 ```
-http://localhost:5000/register
-
+POST /register
+Host:  http://localhost:5000
 ```
 
 <img
