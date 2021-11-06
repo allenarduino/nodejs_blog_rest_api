@@ -27,3 +27,25 @@ Host:  http://localhost:5000
 		width="100%"
 		alt="Capture 1"
 		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot3.png">
+
+### User Login/Authentication:
+
+```
+POST /login
+Host:  http://localhost:5000
+```
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot4.png">
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot5.png">
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot6.png">
