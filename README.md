@@ -11,7 +11,7 @@
 
 ## End points:
 
-### User registration:
+### User Registration:
 
 ```
 POST /register
