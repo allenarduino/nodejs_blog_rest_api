@@ -1,6 +1,6 @@
-# Simple NodeJs Blog API
+# Complete NodeJs Social Blog API
 
-> This is a simple blog rest api powered by NodeJs and MySQL
+> This is a complete social blog rest api powered by NodeJs and MySQL
 
 ## Database Schema
 
