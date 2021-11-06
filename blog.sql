@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 06, 2021 at 05:22 PM
+-- Generation Time: Nov 06, 2021 at 05:39 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.4
 
@@ -84,15 +84,11 @@ CREATE TABLE `post_comments` (
 CREATE TABLE `users` (
   `user_id` int(11) NOT NULL,
   `full_name` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
-  `username` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `password` text NOT NULL,
+  `password` varchar(100) NOT NULL,
   `user_img` text NOT NULL,
   `coverphoto` text NOT NULL,
   `bio` text CHARACTER SET utf8mb4 NOT NULL,
-  `website` text,
-  `active` int(1) DEFAULT NULL,
-  `hash` varchar(100) DEFAULT NULL,
   `date_joined` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
