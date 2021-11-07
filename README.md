@@ -95,7 +95,7 @@ Host:  http://localhost:5000
 ### Get post by id:
 
 ```
-GET /posts/<id>
+GET /posts/<post_id>
 Host:  http://localhost:5000
 ```
 
@@ -103,3 +103,50 @@ Host:  http://localhost:5000
 		width="100%"
 		alt="Capture 1"
 		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot10.png">
+
+### Create comment under a post:
+
+```
+POST /create_comment/<post_id>
+headers:{
+	 'x-access-token': 'YOUR_JWT_HERE'
+}
+Host:  http://localhost:5000
+```
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot11.png">
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot12.png">
+
+### fetch comments under a post:
+
+```
+GET /fetch_comments/<post_id>
+Host:  http://localhost:5000
+```
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot13.png">
+
+### delete a comment by id:
+
+```
+DELETE /delete_comment/
+body:{
+	id:comment_id
+}
+Host:  http://localhost:5000
+```
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot14.png">
