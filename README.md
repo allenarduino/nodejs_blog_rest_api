@@ -64,3 +64,18 @@ Host:  http://localhost:5000
 		width="100%"
 		alt="Capture 1"
 		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot7.png">
+
+### Create Post:
+
+```
+POST /create_post
+headers:{
+	 'x-access-token': 'YOUR_JWT_HERE'
+}
+Host:  http://localhost:5000
+```
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot8.png">
