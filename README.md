@@ -91,3 +91,15 @@ Host:  http://localhost:5000
 		width="100%"
 		alt="Capture 1"
 		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot9.png">
+
+### Get post by id:
+
+```
+GET /posts/<id>
+Host:  http://localhost:5000
+```
+
+<img
+		width="100%"
+		alt="Capture 1"
+		src="https://github.com/allenarduino/nodejs_blog_rest_api/blob/master/screenshots/screenshot10.png">
