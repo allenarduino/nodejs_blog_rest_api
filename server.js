@@ -8,6 +8,7 @@ dotenv.config();
 
 //importing routers
 const userRoute = require("./routes/userRoute");
+const postRoute = require("./routes/postRoute");
 
 // Function to serve all static files
 app.use("/uploads/", express.static("uploads"));
@@ -23,6 +24,7 @@ app.use(cors());
 
 //calling the routers
 app.use(userRoute);
+app.use(postRoute);
 
 
 const PORT = process.env.PORT || 5000;
